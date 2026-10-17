@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# السماح المخصص لعناكب الذكاء الاصطناعي ومحركات البحث التوليدية
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# منع أي ملفات نظام أو مجلدات حساسة إن وُجدت مستقبلاً
+Disallow: /admin/
+Disallow: /private/
+
+# مسار خريطة الموقع وخريطة الذكاء الاصطناعي
+Sitemap: https://example.com/sitemap.xml
